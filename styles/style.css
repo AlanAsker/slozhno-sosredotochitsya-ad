@@ -13,7 +13,7 @@
   grid-template-rows: 0 1fr min-content 1fr min-content;
   align-items: center;
   inline-size: 100%;
-  block-size: 668px;
+  min-block-size: 100vh;
   padding: 10px;
 }
 
@@ -186,7 +186,7 @@ h4.main__subtitle {
   align-items: center;
   justify-content: center;
   inline-size: 100%;
-  block-size: 648px;
+  min-block-size: 100vh;
   padding: 10px;
   margin-top: 10px;
 }
@@ -200,9 +200,10 @@ h4.main__subtitle {
   text-align: center;
 }
 
+
+
 @media (width >= 768px) {
   .header {
-    block-size: 1024px;
     padding: 20px;
   }
 
@@ -299,9 +300,6 @@ h4.main__subtitle {
 }
 
 @media (width >= 1024px) {
-  .header {
-    block-size: 768px;
-  }
 
   .header__theme-menu-list {
     flex-direction: row;
