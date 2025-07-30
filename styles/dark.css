@@ -9,6 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --color-logo-text: var(--margenta);
+  --accent-color: var(--red);
+  --color-text: var(--pink);
+  --color-menu: var(--red);
+  --color-title-text: var(--red);
+  --color-subtitle-text: var(--black);
+  --background-header: url('../images/cover-image-dark.png');
 }
 
 .theme-dark .page {

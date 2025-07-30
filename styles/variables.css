@@ -2,3 +2,20 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --pinklight: #ffc2e6;
+  --pink: #ff8dcb;
+  --red: #ff0070;
+  --margenta: #db00ff;
+  --black: #000028;
+  --grey: #353430;
+
+  --color-logo-text: var(--margenta);
+  --accent-color: var(--red);
+  --color-text: var(--pink);
+  --color-menu: var(--red);
+  --color-title-text: var(--red);
+  --color-subtitle-text: var(--black);
+  --background-header: url("../images/cover-image-dark.png");
+}
